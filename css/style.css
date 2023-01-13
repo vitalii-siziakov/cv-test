@@ -1,0 +1,1086 @@
+body {
+    background-color: #000;
+    color: #C6C6C6;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#body {
+    transition: all .3s ease-in-out;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 63px;
+    padding: 100px 0 50px;
+    color: #E2E2E2;
+}
+
+.subtitle {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    padding-bottom: 30px;
+}
+
+.header {
+    height: 85px;
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+    border-bottom: solid 3px #0000F5;
+    z-index: 4;
+}
+
+.header.light-theme {
+    background-color: #fff;
+}
+
+.header__contacts {
+    margin-top: 20px;
+}
+
+.footer__contacts-wa+.footer__contacts-tg,
+.header__contacts-wa+.header__contacts-tg {
+    margin-left: 25px;
+}
+
+.footer__contacts-wa,
+.footer__contacts-tg,
+.header__contacts-tg-img,
+.header__contacts-wa-img {
+    transition: all .3s ease-in-out;
+}
+
+.header__inner,
+.header__themeswitcher {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__themeswitcher {
+    /* color: white; */
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.header__themeswitcher,
+.header__menu {
+    margin-top: 28px;
+}
+
+.header__button-bg {
+    width: 40px;
+    height: 22px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    position: relative;
+    margin: 4px 15px 0;
+    cursor: pointer;
+}
+
+.header__themeswitcher-button {
+    border: none;
+    height: 16px;
+    width: 16px;
+    background-color: #0000F5;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.light-theme--active {
+    left: 20px;
+}
+
+.header__menu {
+    width: 663px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.header__inner {
+    position: relative;
+}
+
+.header__menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu-item-link {
+    color: #C6C6C6;
+    transition: all .3s ease-in-out;
+}
+
+.header__menu-item-link:hover {
+    color: #0000F5;
+    /* border-bottom: 2px solid #0000F5; */
+}
+
+.maksim {
+    padding-top: 150px;
+}
+
+.maksim__inner {
+    display: flex;
+    justify-content: left;
+}
+
+.maksim__image {
+    border-radius: 20px;
+    box-shadow: 20px 20px #0000F5;
+    margin-right: 98px;
+}
+
+.maksim__info-name {
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 63px;
+    padding: 111px 0 12px;
+    color: #E2E2E2;
+}
+
+.maksim__info-profession {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 40px;
+}
+
+.maksim__info-text {
+    max-width: 520px;
+    padding-bottom: 72px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 139.4%;
+}
+
+.maksim__info-button {
+    padding: 27px 74px 23px;
+    background-color: #0000f5;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.maksim__info-button:hover,
+.portfolio__watch-btn:hover {
+    box-shadow: inset 0px 0px 0 2px #0000F5;
+    background-color: transparent;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: left;
+}
+
+.about__box-left {
+    width: 600px;
+}
+
+.about__box-text {
+    max-width: 480px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about__box-text+.about__box-text {
+    padding-top: 25px;
+}
+
+.skills__interest-item {
+    display: flex;
+    justify-content: left;
+}
+
+.skills__soft,
+.skills__interest {
+    margin-bottom: 50px;
+}
+
+.skills__text+.skills__text {
+    margin-top: 20px;
+}
+
+.skills__interest-item+.skills__interest-item {
+    margin-top: 20px;
+}
+
+.skills__interest-item {
+    text-align: center;
+}
+
+.skills__interest-text {
+    margin: 7px 0 0 25px;
+}
+
+.skills__language-box {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.skills__language-box+.skills__language-box {
+    margin-top: 15px;
+}
+
+.skills__language-text {
+    margin-bottom: 10px;
+}
+
+.skills__language-speak,
+.skills__language-write {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.skills__language-text-write,
+.skills__language-text-speak {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.skills__language-text-speak {
+    margin-right: 38px;
+}
+
+.skills__language-text-write {
+    margin-right: 25px;
+}
+
+.skills__progressbar-bg {
+    width: 157px;
+    height: 8px;
+    background-color: #C4C4C4;
+    border-radius: 12px;
+    margin-top: 6px;
+}
+
+.skills__progress {
+    width: 120px;
+    height: 8px;
+    background-color: #0000f5;
+    border-radius: 12px;
+}
+
+.skills__inner,
+.skills__tech-item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.skills__inner-left {
+    width: 600px;
+}
+
+.skills__tech-item+.skills__tech-item {
+    margin-top: 30px;
+}
+
+.skill__tech-progress {
+    margin-left: 25px;
+}
+
+.skills__tech-text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+/* Доп. стили для Прогресса */
+
+.progress-html {
+    width: 114px;
+}
+
+.progress-css {
+    width: 109px;
+}
+
+.progress-js {
+    width: 53px;
+}
+
+.progress-jq {
+    width: 81px;
+}
+
+.progress-ps {
+    width: 137px;
+}
+
+.progress-figma {
+    width: 126px;
+}
+
+.progress-tilda {
+    width: 137px;
+}
+
+.progress-eng-speak {
+    width: 116px;
+}
+
+.progress-eng-write {
+    width: 116px;
+}
+
+.progress-ru-speak {
+    width: 157px;
+}
+
+.progress-ru-write {
+    width: 153px;
+}
+
+/* Конец доп. стилей для Прогресса */
+
+/* Вёрстка портфолио, Слайдер */
+
+.portfolio__slider-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__title,
+.portfolio__task {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.portfolio__theme {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #848484;
+    margin-bottom: 35px;
+}
+
+.portfolio__task {
+    margin-bottom: 10px;
+}
+
+.portfolio__task-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #848484;
+    max-width: 230px;
+    margin-bottom: 35px;
+}
+
+.portfolio__technologies {
+    font-size: 20px;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 10px;
+}
+
+ul.portfolio__stack-list {
+    display: flex;
+    max-width: 200px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+ul .portfolio__stack-item {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C5C5C5;
+    background-color: #1D1D1D;
+    padding: 6px 13px;
+    border-radius: 5px;
+    margin: 0 10px 10px 0;
+}
+
+.portfolio__watch-btn {
+    background-color: #0000F5;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 11px 34px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.portfolio__project {
+    width: 900px;
+    height: 526px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portfolio__project-img {
+    border-radius: 20px;
+    transition: all .7s ease-in-out;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+/* Анимация появления BG */
+
+.project-one-bg {
+    background-image: url(../css/assets/png/projectFirstBG.png);
+}
+
+.project-two-bg {
+    background-image: url(../css/assets/png/projectSecondBG.png);
+}
+
+.project-three-bg {
+    background-image: url(../css/assets/png/projectThirdBG.png);
+}
+
+.project-one-bg:hover img,
+.project-two-bg:hover img,
+.project-three-bg:hover img {
+    opacity: 0;
+}
+
+/* Конец анимации BG */
+
+
+/* Вёрстка курсов */
+
+.courses__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.courses__box {
+    width: 400px;
+}
+
+.courses__image-gb {
+    height: 53px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.courses__school {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2E2E2;
+    margin-bottom: 10px;
+}
+
+.courses__date {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C6C6C6;
+}
+
+.courses__desc {
+    max-width: 350px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #848484;
+}
+
+/* Переключение BG при смене темы */
+
+.ms-dark {
+    background-image: url(/css/assets/png/ms-dark.png);
+}
+
+.ms-dark.light-theme {
+    background-image: url(/css/assets/png/ms-light.png);
+}
+
+.academy-dark {
+    background-image: url(/css/assets/png/academy-dark.png);
+}
+
+.academy-dark.light-theme {
+    background-image: url(/css/assets/png/academy-light.png);
+}
+
+.vadim-dark {
+    background-image: url(/css/assets/png/vadim-dark.png);
+}
+
+.vadim-dark.light-theme {
+    background-image: url(/css/assets/png/vadim-light.png);
+}
+
+
+/* Делаю классы для переключения темы */
+
+#body.light-theme {
+    background-color: #fff;
+}
+
+.footer__contacts-wa.light-theme path,
+.footer__contacts-tg.light-theme path,
+.header__contacts-tg-img.light-theme path,
+.header__contacts-wa-img.light-theme path,
+.skills__interest-item.light-theme svg path,
+.skills__tech-item.light-theme svg path {
+    fill: #333;
+}
+
+.bonus-btn-svg.light-theme path {
+    stroke: #333;
+}
+
+.header__menu-item-link.light-theme,
+.title.light-theme,
+.header__themeswitcher-text.light-theme,
+.about__box-text.light-theme,
+.maksim__info-name.light-theme,
+.maksim__info-profession.light-theme,
+.maksim__info-text.light-theme,
+.skills__text.light-theme,
+.skills__tech-text.light-theme,
+.subtitle.light-theme,
+.maksim__info-name.light-theme,
+.skills__interest-text.light-theme,
+.skills__language-text.light-theme,
+.skills__language-text-speak.light-theme,
+.skills__language-text-write.light-theme,
+.portfolio__task.light-theme,
+.portfolio__title.light-theme,
+.courses__school.light-theme,
+.footer__behance.light-theme,
+.footer__phone-link.light-theme,
+.footer__mail-link.light-theme,
+.courses__desc.light-theme {
+    color: #333;
+}
+
+.header__menu-item-link.light-theme:hover {
+    color: #0000f5;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    font-size: 0;
+    background-color: #eeeef9;
+    margin: 30px 5px 0;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #0000f5;
+}
+
+.portfolio__inner {
+    position: relative;
+}
+
+.slick-arrow {
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 47px;
+    z-index: 2;
+    border: none;
+}
+
+.slick-arrow img {
+    width: 44px;
+    height: 44px;
+}
+
+.slick-next {
+    left: 60px;
+}
+
+.bonus-btn {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.bonus-btn-svg path {
+    transition: all .3s ease-in-out;
+}
+
+.bonus-btn:hover .bonus-btn-svg.light-theme path,
+.bonus-btn:hover .bonus-btn-svg path,
+.bonus-btn.light-theme:hover,
+.bonus-btn:hover,
+.bonus-btn-svg.light-theme:hover path {
+    color: #0000F5;
+    stroke: #0000F5;
+}
+
+.bonus-btn.light-theme {
+    color: #333;
+}
+
+.bonus-btn-svg {
+    margin-left: 10px;
+    position: absolute;
+}
+
+.bonus-btn-svg path {
+    stroke: #fff;
+}
+
+.bonus-btn-svg.light-theme path {
+    stroke: #333;
+}
+
+.bonus__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 0;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.bonus__inner--active {
+    height: auto;
+}
+
+.bonus__inner-img:nth-child(3) {
+    margin-top: 50px;
+}
+
+.footer {
+    height: 85px;
+    border-top: solid 3px #0000F5;
+}
+
+.footer__inner,
+.footer__behance {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer__inner {
+    padding-top: 24px;
+}
+
+.footer__links,
+.footer__behance {
+    margin: auto 0;
+}
+
+.footer__behance,
+.footer__phone-link,
+.footer__mail-link {
+    color: #fff;
+}
+
+.footer__behance>.footer__behance-text {
+    margin: 15px 10px 0;
+
+}
+
+.footer__phone-link+.footer__mail-link {
+    margin-left: 25px;
+}
+
+
+.footer__behance-icon {
+    width: 44px;
+    height: 44px;
+}
+
+/* Кнопка меню в header */
+
+.header__menu-btn-inner {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.header__menu-btn,
+.header__menu-btn::before,
+.header__menu-btn::after {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: all .3s ease-in-out;
+}
+
+.header__menu-btn.light-theme,
+.light-theme.header__menu-btn::before,
+.light-theme.header__menu-btn::after {
+    background-color: #333;
+}
+
+.header__menu-btn::before,
+.header__menu-btn::after {
+    content: '';
+    /* Удалить потом нижнюю часть */
+    transition: .3s;
+    /* до сюда */
+}
+
+.header__menu-btn::before {
+    transform: translateY(-9px);
+}
+
+.header__menu-btn::after {
+    transform: translateY(5px);
+}
+
+.header__menu-btn--active {
+    height: 0;
+}
+
+.header__menu-btn--active::before {
+    transform: rotate(45deg);
+}
+
+.header__menu-btn--active::after {
+    transform: rotate(-45deg);
+}
+
+/* Конец стиля кнопки меню в header */
+
+@media (max-width: 1250px) {
+
+    .courses__inner {
+        justify-content: center;
+    }
+
+    .courses__box {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1210px) {
+
+    .portfolio__project,
+    .portfolio__project-img {
+        width: 700px;
+        height: 430px;
+    }
+
+    .portfolio__theme {
+        margin-bottom: 20px;
+    }
+
+    .portfolio__task-desc {
+        margin-bottom: 20px;
+    }
+
+    .portfolio__stack-list {
+        margin-bottom: 59px;
+    }
+}
+
+@media (max-width: 1130px) {
+
+    .maksim__info-name {
+        line-height: 47px;
+    }
+
+    .skills__inner-left,
+    .skills__inner-right,
+    .about__box-left,
+    .about__box-right {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .header__menu.light-theme {
+        background-color: #fff;
+    }
+
+    .header__menu-btn-inner {
+        display: block;
+    }
+
+    .header__menu {
+        position: absolute;
+        top: 0;
+        right: -30px;
+        left: -30px;
+        text-align: center;
+        width: calc(30px + 100% + 30px);
+        z-index: 3;
+        background-color: #000;
+        height: 0;
+        overflow: hidden;
+        margin-top: 85px;
+        transition: all .3s ease-in-out;
+    }
+
+    .header_menu--active {
+        height: 100vh;
+    }
+
+    .header__menu-list {
+        display: block;
+        height: 100vh;
+        z-index: 3;
+    }
+
+    .header__menu-item {
+        padding: 20px 0;
+    }
+
+    .header__menu-item:nth-child(1) {
+        padding-top: 70px;
+    }
+
+    .bonus__inner {
+        justify-content: center;
+    }
+
+    .bonus__inner-img {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+
+    ul.portfolio__stack-list {
+        margin-bottom: 34px;
+    }
+}
+
+@media (max-width: 978px) {
+
+    .maksim__info-name {
+        font-size: 38px;
+        line-height: 36px;
+        padding-top: 160px;
+    }
+
+    .maksim__info-profession {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+
+    .maksim__info-text {
+        font-size: 20px;
+        line-height: 120%;
+        padding-bottom: 50px;
+    }
+
+    .maksim__info-button {
+        font-size: 20px;
+    }
+
+    .maksim__image {
+        max-width: 40%;
+    }
+
+    .about__box-left,
+    .about__box-right {
+        max-width: 50%;
+    }
+
+    .about__box-text {
+        max-width: 90%;
+    }
+
+    .portfolio__slider-box {
+        flex-direction: column;
+    }
+
+    .portfolio__project {
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    .portfolio__project,
+    .portfolio__project-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .portfolio__title,
+    .portfolio__theme {
+        text-align: center;
+    }
+
+    .portfolio__task-desc,
+    ul.portfolio__stack-list {
+        max-width: 100%;
+    }
+
+    .portfolio__info {
+        min-height: 300px;
+    }
+
+}
+
+@media (max-width: 865px) {
+    .footer__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__contacts,
+    .footer__links {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .maksim__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maksim__image {
+        max-width: 100%;
+        margin-left: 70px;
+    }
+
+    .maksim__info-name {
+        padding-top: 70px;
+    }
+
+    .about__inner,
+    .skills__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills__inner {
+        justify-content: left;
+    }
+
+    .skills__inner-right {
+        order: -1;
+        margin-bottom: 50px;
+    }
+
+    .skills__inner-left,
+    .skills__inner-right,
+    .about__box-left,
+    .about__box-right {
+        max-width: 70%;
+    }
+
+    .skills__inner-right {
+        width: 600px;
+    }
+
+    .about__box-left {
+        padding-bottom: 50px;
+    }
+
+    .title {
+        font-size: 36px;
+        padding: 100px 0 30px;
+    }
+
+}
+
+@media (max-width: 660px) {
+
+    .skills__inner-left,
+    .skills__inner-right,
+    .about__box-left,
+    .about__box-right {
+        max-width: 90%;
+    }
+}
+
+
+@media (max-width: 620px) {
+
+    .about__box-text {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .header__themeswitcher-text {
+        display: none;
+    }
+
+    .skills__tech-text {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 444px) {
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__phone-link {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .portfolio__info {
+        min-height: 380px;
+    }
+
+}
